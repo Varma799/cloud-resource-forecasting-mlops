@@ -126,6 +126,16 @@ scaling_action
   "scaling_action": "stable"
 }
 ```
+## Screenshots
+
+### Swagger API Response
+![Swagger Predict Response](images/swagger-predict-response.png)
+
+### Actual vs Predicted Plot
+![Actual vs Predicted](images/actual-vs-predicted.png)
+
+### Residual Plot
+![Residual Plot](images/residual-plot.png)
 
 ## Evaluation Artifacts
 
