@@ -1,0 +1,22 @@
+data:
+  test_size: 0.2
+  target_cpu: future_cpu_usage
+  target_memory: future_memory_usage
+
+features:
+  lag_steps: [1, 2]
+  rolling_windows: [2, 3]
+
+model:
+  name: xgboost
+  n_estimators: 200
+  learning_rate: 0.05
+  max_depth: 6
+  subsample: 0.8
+  colsample_bytree: 0.8
+
+scaling_thresholds:
+  scale_up_cpu: 80
+  scale_up_memory: 85
+  scale_down_cpu: 40
+  scale_down_memory: 40

@@ -1,0 +1,19 @@
+columns:
+  timestamp: object
+  server_id: object
+  cpu_usage: float64
+  memory_usage: float64
+  disk_io: float64
+  network_in: float64
+  network_out: float64
+  request_count: int64
+
+required_columns:
+  - timestamp
+  - server_id
+  - cpu_usage
+  - memory_usage
+  - disk_io
+  - network_in
+  - network_out
+  - request_count

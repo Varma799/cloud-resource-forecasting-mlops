@@ -1,0 +1,19 @@
+project:
+  name: cloud-resource-forecasting-mlops
+  random_seed: 42
+
+paths:
+  raw_data: data/raw/cloud_resource_usage.csv
+  ingested_data: data/processed/ingested.csv
+  transformed_data: data/processed/transformed.csv
+  model_dir: artifacts/models
+  reports_dir: artifacts/reports
+  plots_dir: artifacts/plots
+  logs_dir: logs
+
+mlflow:
+  experiment_name: cloud_resource_forecasting
+
+api:
+  host: 0.0.0.0
+  port: 8000
