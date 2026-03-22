@@ -169,11 +169,11 @@ pytest validation
 
 ## How to Run Locally
 
-Activate the virtual environment
-Generate sample data
-Run the training pipeline
-Start the API server
-Open Swagger docs and test the endpoints
+- Activate the virtual environment
+- Generate sample data
+- Run the training pipeline
+- Start the API server
+- Open Swagger docs and test the endpoints
 
 ## Commands used:
 
