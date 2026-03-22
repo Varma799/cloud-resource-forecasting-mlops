@@ -20,3 +20,4 @@ artifacts/plots/
 artifacts/reports/
 logs/
 data/processed/
+.pytest_cache/
