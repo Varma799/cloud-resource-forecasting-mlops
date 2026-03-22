@@ -60,7 +60,7 @@ cloud-resource-forecasting-mlops/
 ├── Dockerfile
 ├── docker-compose.yml
 └── dvc.yaml
-
+```
 ## Pipeline Flow 
 
 Generate or load raw cloud resource usage data
