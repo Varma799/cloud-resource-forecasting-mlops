@@ -44,6 +44,7 @@ Create evaluation artifacts that can be reviewed visually
 
 ## Project Structure
 
+```text
 cloud-resource-forecasting-mlops/
 ├── app/
 ├── config/
