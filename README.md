@@ -108,10 +108,10 @@ The forecasting output is converted into an operational recommendation using rul
 
 ## API Endpoints
 
-- GET /health
+- GET /health<br>  
   Returns service health status
 
-- POST /predict
+- POST /predict<br>
   Accepts cloud resource metrics and engineered features, then returns:
   - predicted_future_cpu_usage
   - predicted_future_memory_usage
